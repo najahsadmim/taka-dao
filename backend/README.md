@@ -9,4 +9,4 @@ Set private environment variables in the backend project, as needed:
 - Ollama variables (`AI_PROVIDER`, `OLLAMA_BASE_URL`, `OLLAMA_MODEL`, and private `OLLAMA_API_KEY` for Cloud)
 - `DOCUMENT_ENCRYPTION_KEY` if document encryption is enabled
 
-Vercel's local function filesystem is temporary. This prototype writes JSON and encrypted uploads locally; do not use it for real student records until those are migrated to durable database and object storage and authentication/authorization is added.
+The backend defaults its data, encrypted uploads and encryption key to `/tmp/taka-dao/` unless you override the `TAKA_DAO_DATA_DIR`, `TAKA_DAO_PRIVATE_DIR` and `TAKA_DAO_KEY_FILE` variables. Vercel's local function filesystem is temporary. This prototype writes JSON and encrypted uploads locally; do not use it for real student records until those are migrated to durable database and object storage and authentication/authorization is added.
