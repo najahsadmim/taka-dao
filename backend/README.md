@@ -5,7 +5,7 @@ This folder contains the standalone Flask API. In Vercel, create a separate proj
 Set private environment variables in the backend project, as needed:
 
 - `FLASK_SECRET_KEY`
-- `FRONTEND_ORIGIN` — exact deployed frontend origin, such as `https://taka-dao.vercel.app`
+- `FRONTEND_ORIGIN` — exact deployed frontend origin; defaults to `https://taka-dao-frontend.vercel.app`
 - Ollama variables (`AI_PROVIDER`, `OLLAMA_BASE_URL`, `OLLAMA_MODEL`, and private `OLLAMA_API_KEY` for Cloud)
 - `DOCUMENT_ENCRYPTION_KEY` if document encryption is enabled
 

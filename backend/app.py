@@ -22,7 +22,7 @@ def cors_preflight():
 @app.after_request
 def add_frontend_cors(response):
  origin=request.headers.get('Origin')
- allowed=os.getenv('FRONTEND_ORIGIN','').rstrip('/')
+ allowed=os.getenv('FRONTEND_ORIGIN','https://taka-dao-frontend.vercel.app').rstrip('/')
  if allowed and origin and origin.rstrip('/')==allowed:
   response.headers['Access-Control-Allow-Origin']=allowed
   response.headers['Access-Control-Allow-Methods']='GET, POST, OPTIONS'
