@@ -1,0 +1,6 @@
+Flask>=3.0,<4
+cryptography>=42,<51
+ollama>=0.5,<1
+python-dotenv>=1,<2
+pypdf>=5,<7
+PyMuPDF>=1.24,<2
