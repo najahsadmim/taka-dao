@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ff405666-f51c-4c25-ad6d-0636607c53e7",
+    "message": "BDT 5000 allocated to Guitar class tuition.",
+    "date": "2026-10-19T01:59:02.758290",
+    "read": false,
+    "allocation_id": "9cda2e00-2b9f-494d-bcbf-431003e987a4",
+    "allocation_due_id": "331c6e38-a676-44b6-9780-873282420522",
+    "allocation_amount": "5000",
+    "allocation_currency": "BDT",
+    "allocation_name": "Guitar class tuition"
+  },
+  {
+    "id": "557801a0-db69-4b30-8f71-4b1a30f81cc8",
+    "message": "Transaction recorded: Family",
+    "date": "2026-10-19T01:59:02.742967",
+    "read": false
+  },
+  {
+    "id": "66c006c5-338b-4c86-971c-8398e6710833",
+    "message": "Due added: Guitar class tuition.",
+    "date": "2026-10-19T01:57:45.487105",
+    "read": false
+  },
+  {
+    "id": "b9384e39-a9ea-42d3-9f04-81ee8343bd9a",
+    "message": "Due added: Monthly grocery.",
+    "date": "2026-10-19T01:56:13.059887",
+    "read": false
+  },
+  {
+    "id": "3ac69c21-22a6-4d57-a710-dca443b66436",
+    "message": "Simulated payment successful: BDT 18105 to Tuition installment.",
+    "date": "2026-10-19T01:54:28.039967",
+    "read": false
+  },
+  {
+    "id": "c02190c5-c6d4-4951-98ff-2bdf4db2f6da",
+    "message": "Simulated payment successful: BDT 19170 to Rent.",
+    "date": "2026-10-19T01:47:17.839073",
+    "read": false
+  },
+  {
+    "id": "92907872-050e-4564-9b8a-b22652d4bbf5",
+    "message": "BDT 3200 allocated to Insurance premium.",
+    "date": "2026-10-19T01:46:06.808632",
+    "read": false,
+    "allocation_id": "b8e92c52-b482-4ae9-a2f0-e89a6a19eade",
+    "allocation_due_id": "due-3",
+    "allocation_amount": "3200",
+    "allocation_currency": "BDT",
+    "allocation_name": "Insurance premium"
+  },
+  {
+    "id": "ac74f1ed-96b4-47e7-9dff-a7a4fa411f25",
+    "message": "BDT 10000 allocated to Friend's debt.",
+    "date": "2026-10-19T01:46:06.800974",
+    "read": false,
+    "allocation_id": "a78409ef-3389-467d-a282-a654d6122ea4",
+    "allocation_due_id": "2ec6f78d-33be-4e9e-8b83-9fbbeb285e85",
+    "allocation_amount": "10000",
+    "allocation_currency": "BDT",
+    "allocation_name": "Friend's debt"
+  },
+  {
+    "id": "1a351743-01d9-47f0-9a74-1568041597fe",
+    "message": "BDT 18000 allocated to Rent.",
+    "date": "2026-10-19T01:46:06.794311",
+    "read": false,
+    "allocation_id": "7eeadb75-8e15-472b-bc16-3b579f15de04",
+    "allocation_due_id": "due-2",
+    "allocation_amount": "18000",
+    "allocation_currency": "BDT",
+    "allocation_name": "Rent"
+  },
+  {
+    "id": "b8ef12e0-353c-46e1-a956-de7dbdac012c",
+    "message": "BDT 17000 allocated to Tuition installment.",
+    "date": "2026-10-19T01:46:06.786616",
+    "read": false,
+    "allocation_id": "783f2648-90bd-457b-92ee-f55371dc816c",
+    "allocation_due_id": "due-1",
+    "allocation_amount": "17000",
+    "allocation_currency": "BDT",
+    "allocation_name": "Tuition installment"
+  },
+  {
+    "id": "172208a6-874b-44c1-96d3-d32690088d2e",
+    "message": "Transaction recorded: Lottery",
+    "date": "2026-10-19T01:46:06.771482",
+    "read": false
+  },
+  {
+    "id": "85c7e1c2-2020-4799-b4ca-7e96270ae44c",
+    "message": "Simulated payment successful: BDT 26625 to Tuition installment.",
+    "date": "2026-10-19T01:44:20.234652",
+    "read": false
+  },
+  {
+    "id": "8246dd87-e036-49ba-bc18-b7c0eed1b1cc",
+    "message": "Simulated payment successful: BDT 26625 to Tuition installment.",
+    "date": "2026-10-19T01:32:08.801283",
+    "read": false
+  },
+  {
+    "id": "b588aa7f-354e-4a32-8125-65bf3eefa6f5",
+    "message": "Autopay scheduled: Rent is due 2026-10-10.",
+    "date": "2026-10-19T01:13:53.295287",
+    "read": false
+  },
+  {
+    "id": "78a2f043-9994-42fd-a5c5-0d8a34c3ba33",
+    "message": "Autopay_Rule added: Rent.",
+    "date": "2026-10-19T01:13:53.277990",
+    "read": false
+  },
+  {
+    "id": "b8e868dd-09d6-472e-a0d1-6e4c6535d1f2",
+    "message": "BDT 25000 allocated to Tuition installment.",
+    "date": "2026-10-19T01:12:05.609111",
+    "read": false,
+    "allocation_id": "79266f9f-ba2d-453c-a42f-a48267042fd5",
+    "allocation_due_id": "due-1",
+    "allocation_amount": "25000",
+    "allocation_currency": "BDT",
+    "allocation_name": "Tuition installment"
+  },
+  {
+    "id": "6794884f-6884-47a2-833a-9ad9a5701d25",
+    "message": "Transaction recorded: Salary",
+    "date": "2026-10-19T01:12:05.598887",
+    "read": false
+  },
+  {
+    "id": "dc195748-c9b4-4cba-a549-cee163b0f438",
+    "message": "Simulated payment successful: BDT 372.75 to Bookworm.",
+    "date": "2026-10-19T01:03:15.301372",
+    "read": false
+  },
+  {
+    "id": "cc7b1e84-d13d-4739-b305-8ac89c2dbbb0",
+    "message": "Simulated payment successful: BDT 153.36 to food valley.",
+    "date": "2026-10-19T01:01:32.174771",
+    "read": false
+  },
+  {
+    "id": "48637b75-ceb8-46bb-a98e-cca4e2758727",
+    "message": "Autopay_Rule added: Rent.",
+    "date": "2026-10-19T00:08:03.213333",
+    "read": false
+  },
+  {
+    "id": "ad461112-6be4-40b8-bf1f-45b6054796d9",
+    "message": "Autopay_Rule added: Insurance premium.",
+    "date": "2026-10-18T23:56:46.043353",
+    "read": false
+  },
+  {
+    "id": "314f307f-33c8-421f-b50f-daea0f0a8eda",
+    "message": "Fund added: salary.",
+    "date": "2026-10-18T23:31:25.746011",
+    "read": false
+  },
+  {
+    "id": "a251fb19-0af9-436a-ba51-191f427fc903",
+    "message": "Fund added: salary.",
+    "date": "2026-10-18T23:30:00.972158",
+    "read": false
+  },
+  {
+    "id": "c949b930-161e-4b29-b0d9-d3ddf1068c56",
+    "message": "Simulated payment successful: BDT 21300 to brac.",
+    "date": "2026-10-18T23:14:17.968461",
+    "read": false
+  },
+  {
+    "id": "0d2e49a6-c53d-44c8-b6d7-34f3d7d7d4d3",
+    "message": "Prioritie added: tuition.",
+    "date": "2026-10-18T23:10:32.860406",
+    "read": false
+  },
+  {
+    "id": "1becf182-e52c-41f4-966f-30106f80573c",
+    "message": "Due added: Friend's debt.",
+    "date": "2026-10-18T23:08:38.189219",
+    "read": false
+  },
+  {
+    "id": "d37aadcb-5b40-4c0c-8eef-af69fbbfe0fe",
+    "message": "Simulated payment successful: BDT 532.5 to foodvalley.",
+    "date": "2026-10-18T13:51:36.164420",
+    "read": false
+  },
+  {
+    "id": "29e8a035-d70b-4071-822b-592a62416884",
+    "message": "Simulated payment successful: BDT 958.5 to food valley.",
+    "date": "2026-10-18T13:40:46.391875",
+    "read": false
+  },
+  {
+    "id": "63a3b88d-f4ad-4f77-ab3a-8cef0477b80f",
+    "message": "Simulated payment successful: BDT 15975 to Adidas.",
+    "date": "2026-10-18T02:56:10.180236",
+    "read": false
+  },
+  {
+    "id": "n1",
+    "message": "Welcome! Demo records are marked synthetic.",
+    "date": "2026-10-18T02:46:17.186456",
+    "read": false
+  }
+]

@@ -39,11 +39,3 @@ Run backend checks after installing requirements:
 ```powershell
 python -m unittest discover -s tests -v
 ```
-
-
-## Separate frontend and backend
-
-- `frontend/` is the standalone static client. Set a Vercel project's Root Directory to `frontend`.
-- `backend/` is the standalone Flask API. Set a separate Vercel project's Root Directory to `backend`.
-- Point `frontend/config.js` at the deployed backend URL and set backend `FRONTEND_ORIGIN` to the frontend's exact origin.
-- The root-level app remains for the existing combined deployment. See each folder's README for setup details.

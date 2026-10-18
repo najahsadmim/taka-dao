@@ -1,0 +1,36 @@
+[
+  {
+    "id": "5c0424c0-c0f9-45a5-a19c-b072ba0a1271",
+    "source": "salary",
+    "amount": "10000",
+    "currency": "BDT",
+    "date": "2026-10-18",
+    "confidence": "high"
+  },
+  {
+    "id": "17e529f7-ff74-45af-9ae0-05c52174e2b6",
+    "source": "salary",
+    "amount": "10000",
+    "currency": "BDT",
+    "date": "2026-10-18",
+    "confidence": "high"
+  },
+  {
+    "id": "de5d764d-2b77-4b08-b3a2-0c23c4f73d3c",
+    "source": "salary",
+    "amount": "30000",
+    "currency": "BDT",
+    "date": "2026-10-17",
+    "confidence": "high"
+  },
+  {
+    "id": "fund-1",
+    "source": "Family support",
+    "amount": "25000",
+    "currency": "BDT",
+    "date": "2026-10-22",
+    "confidence": "medium",
+    "status": "expected",
+    "synthetic": true
+  }
+]

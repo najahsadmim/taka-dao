@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pm-card",
+    "name": "Bank card",
+    "detail": "•••• 2048",
+    "simulated": true,
+    "enabled": true
+  },
+  {
+    "id": "pm-wallet",
+    "name": "Digital wallet",
+    "detail": "Student wallet",
+    "simulated": true,
+    "enabled": true
+  },
+  {
+    "id": "pm-transfer",
+    "name": "Bank transfer",
+    "detail": "Demo transfer",
+    "simulated": true,
+    "enabled": true
+  }
+]

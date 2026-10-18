@@ -1,0 +1,49 @@
+[
+  {
+    "id": "30d53c47-bd4c-4417-b82d-0144cd1314e7",
+    "due_id": "due-2",
+    "start_date": "2026-10-10",
+    "recurrence": "monthly",
+    "day_of_month": "10",
+    "name": "Rent",
+    "amount": "18000",
+    "currency": "BDT",
+    "status": "scheduled",
+    "calendar_kind": "due",
+    "date": "2026-10-10",
+    "calendar_day": "10"
+  },
+  {
+    "id": "4e7f705f-35a3-4298-aacf-b23c8124d92e",
+    "due_id": "due-2",
+    "start_date": "2026-10-12",
+    "recurrence": "monthly",
+    "day_of_month": "10",
+    "name": "Rent",
+    "amount": "18000",
+    "currency": "BDT",
+    "status": "approval_required"
+  },
+  {
+    "id": "3e37f8aa-c123-4882-aca4-9803c43bf5fa",
+    "due_id": "due-3",
+    "start_date": "2026-10-10",
+    "recurrence": "monthly",
+    "day_of_month": "10",
+    "name": "Insurance premium",
+    "amount": "3200",
+    "currency": "BDT",
+    "status": "approval_required"
+  },
+  {
+    "id": "43088ab4-b399-44f9-83ae-180bb2fe0616",
+    "due_id": "due-2",
+    "start_date": "2026-10-18",
+    "recurrence": "monthly",
+    "day_of_month": "10",
+    "name": "Rent",
+    "amount": "18000",
+    "currency": "BDT",
+    "status": "approval_required"
+  }
+]

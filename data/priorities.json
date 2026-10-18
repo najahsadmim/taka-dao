@@ -1,0 +1,11 @@
+[
+  {
+    "id": "58f4a1cb-50dd-4cbe-8e86-852b7cb2f9de",
+    "name": "tuition",
+    "description": "edu + food",
+    "items": "tuition, rent, food",
+    "currency": "BDT",
+    "amount": "0",
+    "status": "active"
+  }
+]

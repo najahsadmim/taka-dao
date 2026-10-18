@@ -1,0 +1,29 @@
+[
+  {
+    "id": "d1142ebb-90e0-495d-ab31-e3ccc6b5a5a8",
+    "category": "insurance_policy",
+    "category_label": "Insurance policy",
+    "filename": "xyz_bank_demo_medical_insurance_statement_bdt.pdf",
+    "created_at": "2026-10-19T02:09:29.597604",
+    "storage_name": "d1142ebb-90e0-495d-ab31-e3ccc6b5a5a8.enc",
+    "mime_type": "application/pdf"
+  },
+  {
+    "id": "c646ba0d-ce8c-406f-b4df-55fdee2cfd54",
+    "category": "profile_photo",
+    "category_label": "Profile picture",
+    "filename": "136795896.jpg",
+    "created_at": "2026-10-18T23:18:06.873899",
+    "storage_name": "c646ba0d-ce8c-406f-b4df-55fdee2cfd54.enc",
+    "mime_type": "image/jpeg"
+  },
+  {
+    "id": "65352f0c-2046-445e-9215-ac27ab3985bc",
+    "category": "transcript",
+    "category_label": "Academic transcript",
+    "filename": "24241014_UG_CS_Gradesheet_Web (2).pdf",
+    "created_at": "2026-10-18T03:14:05.731236",
+    "storage_name": "65352f0c-2046-445e-9215-ac27ab3985bc.enc",
+    "mime_type": "application/pdf"
+  }
+]

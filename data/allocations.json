@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9cda2e00-2b9f-494d-bcbf-431003e987a4",
+    "income_id": "bc4a81c5-b253-4fa9-8a90-47b9bc8cd834",
+    "due_id": "331c6e38-a676-44b6-9780-873282420522",
+    "due_name": "Guitar class tuition",
+    "amount": "5000",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:59:02.752449"
+  },
+  {
+    "id": "b8e92c52-b482-4ae9-a2f0-e89a6a19eade",
+    "income_id": "52c82e3d-9c37-4a52-af6f-6cdaedc9a61b",
+    "due_id": "due-3",
+    "due_name": "Insurance premium",
+    "amount": "3200",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:46:06.802451"
+  },
+  {
+    "id": "a78409ef-3389-467d-a282-a654d6122ea4",
+    "income_id": "52c82e3d-9c37-4a52-af6f-6cdaedc9a61b",
+    "due_id": "2ec6f78d-33be-4e9e-8b83-9fbbeb285e85",
+    "due_name": "Friend's debt",
+    "amount": "10000",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:46:06.795997"
+  },
+  {
+    "id": "7eeadb75-8e15-472b-bc16-3b579f15de04",
+    "income_id": "52c82e3d-9c37-4a52-af6f-6cdaedc9a61b",
+    "due_id": "due-2",
+    "due_name": "Rent",
+    "amount": "18000",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:46:06.788690",
+    "status": "paid",
+    "paid_transaction_id": "5bbb13b2-233e-4368-80cb-e70e488cb0d7"
+  },
+  {
+    "id": "783f2648-90bd-457b-92ee-f55371dc816c",
+    "income_id": "52c82e3d-9c37-4a52-af6f-6cdaedc9a61b",
+    "due_id": "due-1",
+    "due_name": "Tuition installment",
+    "amount": "17000",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:46:06.780495",
+    "status": "paid",
+    "paid_transaction_id": "f2baccf5-2027-48af-acf6-569389999efa"
+  },
+  {
+    "id": "79266f9f-ba2d-453c-a42f-a48267042fd5",
+    "income_id": "c98b9357-c8e3-4f3c-985e-9a5a6ffc5bab",
+    "due_id": "due-1",
+    "due_name": "Tuition installment",
+    "amount": "25000",
+    "currency": "BDT",
+    "created_at": "2026-10-19T01:12:05.601307",
+    "status": "paid",
+    "paid_transaction_id": "90efb43e-095a-4fdc-994b-376683484a27"
+  }
+]

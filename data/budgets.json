@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b1",
+    "category": "Food",
+    "amount": "12000",
+    "currency": "BDT"
+  },
+  {
+    "id": "b2",
+    "category": "Transport",
+    "amount": "4500",
+    "currency": "BDT"
+  },
+  {
+    "id": "b3",
+    "category": "Education",
+    "amount": "50000",
+    "currency": "BDT"
+  },
+  {
+    "id": "b4",
+    "category": "Housing",
+    "amount": "20000",
+    "currency": "BDT"
+  }
+]

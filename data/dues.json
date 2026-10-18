@@ -1,0 +1,67 @@
+[
+  {
+    "id": "331c6e38-a676-44b6-9780-873282420522",
+    "name": "Guitar class tuition",
+    "amount": "5000",
+    "currency": "BDT",
+    "date": "2026-10-25",
+    "category": "Education",
+    "priority": "important",
+    "allocated_amount": "5000"
+  },
+  {
+    "id": "049dad40-499e-4cbd-876d-8d30497b7fae",
+    "name": "Monthly grocery",
+    "amount": "50000",
+    "currency": "BDT",
+    "date": "2026-10-22",
+    "category": "Grocery",
+    "priority": "essential"
+  },
+  {
+    "id": "2ec6f78d-33be-4e9e-8b83-9fbbeb285e85",
+    "name": "Friend's debt",
+    "amount": "10000",
+    "currency": "BDT",
+    "date": "2026-12-02",
+    "category": "Housing",
+    "priority": "important",
+    "allocated_amount": "10000"
+  },
+  {
+    "id": "due-1",
+    "name": "Tuition installment",
+    "category": "Education",
+    "amount": "0",
+    "currency": "BDT",
+    "date": "2026-10-30",
+    "priority": "essential",
+    "status": "paid",
+    "confirmed": true,
+    "allocated_amount": "0"
+  },
+  {
+    "id": "due-2",
+    "name": "Rent",
+    "category": "Housing",
+    "amount": "0",
+    "currency": "BDT",
+    "date": "2026-10-23",
+    "priority": "essential",
+    "status": "paid",
+    "confirmed": true,
+    "allocated_amount": "0"
+  },
+  {
+    "id": "due-3",
+    "name": "Insurance premium",
+    "category": "Insurance",
+    "amount": "3200",
+    "currency": "BDT",
+    "date": "2026-11-08",
+    "priority": "important",
+    "status": "upcoming",
+    "confirmed": false,
+    "allocated_amount": "3200"
+  }
+]
