@@ -49,7 +49,7 @@ SEED = {
 }
 
 def init_store():
- DATA.mkdir(exist_ok=True)
+ DATA.mkdir(parents=True, exist_ok=True)
  for key, value in SEED.items():
   p=DATA/f'{key}.json'
   if not p.exists(): atomic_write(p,value)
