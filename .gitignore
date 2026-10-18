@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+.vendor/
+.pip-temp/
+.vscode/
+__pycache__/
+*.py[cod]
+.instance/
+private_documents/
+data/
