@@ -11,7 +11,7 @@ try:
  load_dotenv(ROOT / '.env')
 except ImportError:
  pass
-DATA = ROOT / 'data'
+DATA = Path(os.getenv('TAKA_DAO_DATA_DIR', '/tmp/taka-dao/data' if os.getenv('VERCEL') else str(ROOT / 'data')))
 LOCK = threading.RLock()
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'local-demo-change-me')
@@ -122,8 +122,8 @@ def dashboard():
  return {'currency':currency,'safe':safe,'transactions':tx,'dues':dues,'funds':funds,'budgets':read('budgets'),'notifications':read('notifications'),'payment_methods':read('payment_methods'),'settings':settings,'allocations':read('allocations'),'autopay_rules':read('autopay_rules'),'summary':{'balance':fmt(balance),'month_expenses':fmt(month_exp),'due_total':fmt(due_sum),'expected_total':fmt(sum((money(f['amount']) for f in funds),Decimal(0))),'due_count':len(dues),'transaction_count':len(tx)}}
 
 CATEGORY_LABELS={'passport_bio':'Passport bio page','profile_photo':'Profile picture','enrollment_verification':'Enrollment verification','transcript':'Academic transcript','degree_certificate':'Degree certificate','student_visa':'Student visa','admission_letter':'Admission letter','insurance_policy':'Insurance policy','medical_record':'Medical record','medical_bill':'Medical bill','other_academic':'Other academic document'}
-PRIVATE=ROOT/'private_documents'
-KEY_FILE=ROOT/'.instance'/'document.key'
+PRIVATE=Path(os.getenv('TAKA_DAO_PRIVATE_DIR', '/tmp/taka-dao/private_documents' if os.getenv('VERCEL') else str(ROOT/'private_documents')))
+KEY_FILE=Path(os.getenv('TAKA_DAO_KEY_FILE', '/tmp/taka-dao/.instance/document.key' if os.getenv('VERCEL') else str(ROOT/'.instance'/'document.key')))
 def document_cipher():
  from cryptography.fernet import Fernet
  env=os.getenv('DOCUMENT_ENCRYPTION_KEY')
