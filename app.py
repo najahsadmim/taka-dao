@@ -14,6 +14,20 @@ except ImportError:
 DATA = Path(os.getenv('TAKA_DAO_DATA_DIR', '/tmp/taka-dao/data' if os.getenv('VERCEL') else str(ROOT / 'data')))
 LOCK = threading.RLock()
 app = Flask(__name__)
+@app.before_request
+def cors_preflight():
+ if request.method=='OPTIONS': return ('',204)
+
+@app.after_request
+def add_frontend_cors(response):
+ origin=request.headers.get('Origin')
+ allowed=os.getenv('FRONTEND_ORIGIN','https://taka-dao-frontend.vercel.app').rstrip('/')
+ if allowed and origin and origin.rstrip('/')==allowed:
+  response.headers['Access-Control-Allow-Origin']=allowed
+  response.headers['Access-Control-Allow-Methods']='GET, POST, OPTIONS'
+  response.headers['Access-Control-Allow-Headers']='Content-Type'
+  response.headers['Vary']='Origin'
+ return response
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'local-demo-change-me')
 app.config['MAX_CONTENT_LENGTH'] = 11 * 1024 * 1024
 

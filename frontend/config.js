@@ -1,5 +1,5 @@
 /* Set this to the deployed Flask API origin, for example https://taka-dao-api.vercel.app. */
-window.TAKA_DAO_API_BASE = window.TAKA_DAO_API_BASE || 'https://taka-dao-kkk1.vercel.app';
+window.TAKA_DAO_API_BASE = window.TAKA_DAO_API_BASE || 'https://taka-dao.vercel.app';
 (() => {
   const base = String(window.TAKA_DAO_API_BASE || '').replace(/\/+$/, '');
   if (!base) return;
