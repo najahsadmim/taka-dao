@@ -37,7 +37,12 @@ def init_store():
  DATA.mkdir(parents=True,exist_ok=True)
  for key, value in SEED.items():
   p=DATA/f'{key}.json'
-  if not p.exists(): atomic_write(p,value)
+  if not p.exists():
+   bundled=ROOT/'data'/f'{key}.json'
+   if bundled != p and bundled.is_file():
+    try: value=json.loads(bundled.read_text(encoding='utf-8'))
+    except (json.JSONDecodeError,OSError): pass
+   atomic_write(p,value)
 
 def atomic_write(path, value):
  path.parent.mkdir(parents=True,exist_ok=True)
