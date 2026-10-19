@@ -137,6 +137,22 @@ The resulting text is included in the AI request as supporting context. The assi
 ### What is sent to the AI provider?
 When document context is enabled, relevant extracted text, or page images for OCR, are sent to the configured Ollama endpoint as part of the request. With local Ollama, the request goes to the locally configured service. With Ollama Cloud, the relevant content is sent to the cloud service. Only enable document context when appropriate, and use synthetic files when testing the hosted demo.
 
+
+### 🗓️ Monthly Planner
+The Planner opens a monthly calendar and places open dues, expected incoming funds, and scheduled Autopay items on their relevant dates. Users can navigate the calendar month and select days to review the events shown. It is a visual planning calendar backed by the app's records, not a synchronised Google/Outlook calendar.
+
+### 🔁 Autopay reminders
+Autopay lets users choose an obligation, start date, and recurrence (such as monthly or yearly) to create a scheduled item that appears in the Planner. The interface describes this as a reminder and a payment preview. **The prototype does not execute recurring payments automatically and does not connect to a real payment provider.** Review each payment and approve it yourself through the simulated flow.
+
+### 💳 Payment-method previews
+The Payment Methods tool offers local previews for provider styles such as bank, Visa/Mastercard, and PayPal. The preview is for interface testing only: it does not connect to those providers or store full account numbers, card numbers, or security codes. The separate simulated-payment flow uses demo payment methods and creates local records only.
+
+### 📈 Credit-score explainer
+The Credit Score shortcut provides educational information about credit history and Bangladesh's Credit Information Bureau (CIB), including a clearly labelled fictional 100-point teaching model. It does **not** calculate an actual credit score, access CIB data, use a bank's scoring formula, or predict loan approval.
+
+### 👤 Profile and settings
+The profile form can hold details such as name, date of birth, nationality, residence, university, degree, email, phone, and a profile photo. Settings include theme, country and currency preferences, time zone, tax jurisdiction, and other planning preferences. English is the currently available UI language. These are prototype settings, not a secure multi-user account system.
+
 ## 🧰 Technology stack
 
 | Component | Technology |
